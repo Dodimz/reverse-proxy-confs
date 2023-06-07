@@ -1,12 +1,12 @@
-# Ignore everything
-*
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-# Do NOT ignore allowed files
-!.editorconfig
-!.gitattributes
-!.github
-!.github/**
-!.gitignore
-!*.conf.sample
-!LICENSE
-!README.md
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
